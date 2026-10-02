@@ -48,10 +48,10 @@ const ijaz = {
 <td width="50%" valign="top">
 
 #### ⚡ The short version
-I build **closed-loop active defense and automated response pipelines** that eliminate manual triage delay. B.E. graduate in Computer Information & Systems Engineering from **NEDUET** with hands-on SIEM engineering experience across Wazuh, Suricata, Velociraptor, and custom Python/Bash daemons.
+I build **closed-loop active defense and automated response pipelines** that eliminate manual triage delay[cite: 1]. B.E. graduate in Computer Information & Systems Engineering from **NEDUET** with hands-on SIEM engineering experience across Wazuh, Suricata, Velociraptor, and custom Python/Bash daemons[cite: 1].
 
 #### 🎯 What I believe
-Security operations shouldn't rely on manual triage for known threats. Automated active response turns high-confidence alerts into **instantaneous active mitigation**.
+Security operations shouldn't rely on manual triage for known threats. Automated active response turns high-confidence alerts into **instantaneous active mitigation**[cite: 1].
 
 ```diff
 + Currently: Open for SOC Analyst / Detection Engineer roles in Lahore
@@ -67,7 +67,7 @@ Security operations shouldn't rely on manual triage for known threats. Automated
 ### ❯ system status
 
 ```bash
-[+] ROLE          Cybersecurity Analyst / SOC Engineer (L1)
+[+] ROLE          Cybersecurity Analyst / SOC Engineer (L1/L2)
 [+] LOCATION      Gulberg, Lahore, Pakistan
 [+] AUTOMATION    Zero-Touch SOAR Malware Isolation (<5s MTTR)
 [+] DECEPTION     Active SSH Deception & Auto-Blocking (0.102s)
@@ -123,14 +123,83 @@ Security operations shouldn't rely on manual triage for known threats. Automated
 
 ---
 
-### ❯ featured security projects
+### ❯ featured work
 
-| Project | Description | Key Metric | Tech Stack | Link |
-| :--- | :--- | :---: | :--- | :---: |
-| **Cyber Deception & Active Defense Lab** | Closed-loop intrusion deception system that auto-deceives and blocks malicious SSH attackers | `0.102s Response` | Wazuh, Cowrie Honeypot, Suricata, AbuseIPDB | [Repository](https://github.com/ijaz-ahmad11-dev/cyber-deception-and-active-defense-lab) |
-| **Zero-Touch SOAR Malware Response** | Automated malware detection and quarantine via custom Active Response daemon & VirusTotal API | `< 5s MTTR` | Wazuh, VirusTotal API, Python | [Repository](https://github.com/ijaz-ahmad11-dev/wazuh-active-response-malware-deletion) |
-| **Wazuh SIEM Detection Engineering** | Custom log decoders, alert rules mapped to MITRE ATT&CK, and alert tuning scenarios | Custom Rules | Wazuh, Linux/Windows Logs, JSON | [Repository](https://github.com/ijaz-ahmad11-dev/wazuh-lab) |
-| **Bash Security Automation Suite** | Production-ready scripts for system auditing, log parsing, IOC extraction, and security admin | Log Auditing | Bash, Linux Admin | [Repository](https://github.com/ijaz-ahmad11-dev/bash-scripting) |
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 🤖 [Cyber Deception & Active Defense Lab](https://github.com/ijaz-ahmad11-dev/cyber-deception-and-active-defense-lab)
+
+Closed-loop intrusion deception system that auto-deceives and blocks malicious SSH attackers (`0.102s` response).
+
+[![Language](https://img.shields.io/github/languages/top/ijaz-ahmad11-dev/cyber-deception-and-active-defense-lab?style=flat-square&color=218838)](https://github.com/ijaz-ahmad11-dev/cyber-deception-and-active-defense-lab)
+[![Last Commit](https://img.shields.io/github/last-commit/ijaz-ahmad11-dev/cyber-deception-and-active-defense-lab?style=flat-square&color=e05d44)](https://github.com/ijaz-ahmad11-dev/cyber-deception-and-active-defense-lab)
+[![Repo Size](https://img.shields.io/github/repo-size/ijaz-ahmad11-dev/cyber-deception-and-active-defense-lab?style=flat-square&color=8a2be2)](https://github.com/ijaz-ahmad11-dev/cyber-deception-and-active-defense-lab)
+
+[![Wazuh](https://img.shields.io/badge/-Wazuh-e5e7eb?style=flat-square&logoColor=000)](https://github.com/ijaz-ahmad11-dev)
+[![Honeypot](https://img.shields.io/badge/-Cowrie%20Honeypot-e5e7eb?style=flat-square&logoColor=000)](https://github.com/ijaz-ahmad11-dev)
+[![Suricata](https://img.shields.io/badge/-Suricata-e5e7eb?style=flat-square&logoColor=000)](https://github.com/ijaz-ahmad11-dev)
+[![AbuseIPDB](https://img.shields.io/badge/-AbuseIPDB-e5e7eb?style=flat-square&logoColor=000)](https://github.com/ijaz-ahmad11-dev)
+
+</td>
+<td width="50%" valign="top">
+
+#### ⚡ [Zero-Touch SOAR Malware Response](https://github.com/ijaz-ahmad11-dev/wazuh-active-response-malware-deletion)
+
+Automated malware detection & isolation via custom Active Response daemon & VirusTotal API (`< 5s` MTTR).
+
+[![Language](https://img.shields.io/github/languages/top/ijaz-ahmad11-dev/wazuh-active-response-malware-deletion?style=flat-square&color=3572A5)](https://github.com/ijaz-ahmad11-dev/wazuh-active-response-malware-deletion)
+[![Last Commit](https://img.shields.io/github/last-commit/ijaz-ahmad11-dev/wazuh-active-response-malware-deletion?style=flat-square&color=e05d44)](https://github.com/ijaz-ahmad11-dev/wazuh-active-response-malware-deletion)
+[![Repo Size](https://img.shields.io/github/repo-size/ijaz-ahmad11-dev/wazuh-active-response-malware-deletion?style=flat-square&color=8a2be2)](https://github.com/ijaz-ahmad11-dev/wazuh-active-response-malware-deletion)
+
+[![Wazuh](https://img.shields.io/badge/-Wazuh-e5e7eb?style=flat-square&logoColor=000)](https://github.com/ijaz-ahmad11-dev)
+[![VirusTotal](https://img.shields.io/badge/-VirusTotal%20API-e5e7eb?style=flat-square&logoColor=000)](https://github.com/ijaz-ahmad11-dev)
+[![Python](https://img.shields.io/badge/-Python-e5e7eb?style=flat-square&logoColor=000)](https://github.com/ijaz-ahmad11-dev)
+[![SOAR](https://img.shields.io/badge/-SOAR-e5e7eb?style=flat-square&logoColor=000)](https://github.com/ijaz-ahmad11-dev)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 🛡️ [Wazuh SIEM Detection Engineering](https://github.com/ijaz-ahmad11-dev/wazuh-lab)
+
+Custom log decoders, alert rules mapped to MITRE ATT&CK, and alert tuning scenarios.
+
+[![Language](https://img.shields.io/github/languages/top/ijaz-ahmad11-dev/wazuh-lab?style=flat-square&color=292929)](https://github.com/ijaz-ahmad11-dev/wazuh-lab)
+[![Last Commit](https://img.shields.io/github/last-commit/ijaz-ahmad11-dev/wazuh-lab?style=flat-square&color=e05d44)](https://github.com/ijaz-ahmad11-dev/wazuh-lab)
+[![Repo Size](https://img.shields.io/github/repo-size/ijaz-ahmad11-dev/wazuh-lab?style=flat-square&color=8a2be2)](https://github.com/ijaz-ahmad11-dev/wazuh-lab)
+
+[![Wazuh](https://img.shields.io/badge/-Wazuh%20SIEM-e5e7eb?style=flat-square&logoColor=000)](https://github.com/ijaz-ahmad11-dev)
+[![MITRE](https://img.shields.io/badge/-MITRE%20ATT%26CK-e5e7eb?style=flat-square&logoColor=000)](https://github.com/ijaz-ahmad11-dev)
+[![JSON](https://img.shields.io/badge/-Custom%20Decoders-e5e7eb?style=flat-square&logoColor=000)](https://github.com/ijaz-ahmad11-dev)
+
+</td>
+<td width="50%" valign="top">
+
+#### 📜 [Bash Security Automation Suite](https://github.com/ijaz-ahmad11-dev/bash-scripting)
+
+Production-ready scripts for system auditing, log parsing, IOC extraction, and Linux security administration.
+
+[![Language](https://img.shields.io/github/languages/top/ijaz-ahmad11-dev/bash-scripting?style=flat-square&color=89e051)](https://github.com/ijaz-ahmad11-dev/bash-scripting)
+[![Last Commit](https://img.shields.io/github/last-commit/ijaz-ahmad11-dev/bash-scripting?style=flat-square&color=e05d44)](https://github.com/ijaz-ahmad11-dev/bash-scripting)
+[![Repo Size](https://img.shields.io/github/repo-size/ijaz-ahmad11-dev/bash-scripting?style=flat-square&color=8a2be2)](https://github.com/ijaz-ahmad11-dev/bash-scripting)
+
+[![Bash](https://img.shields.io/badge/-Bash%20Scripting-e5e7eb?style=flat-square&logoColor=000)](https://github.com/ijaz-ahmad11-dev)
+[![Linux](https://img.shields.io/badge/-Linux%20Admin-e5e7eb?style=flat-square&logoColor=000)](https://github.com/ijaz-ahmad11-dev)
+[![Auditing](https://img.shields.io/badge/-Log%20Auditing-e5e7eb?style=flat-square&logoColor=000)](https://github.com/ijaz-ahmad11-dev)
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary>📁 <b>More projects</b></summary>
+<br>
+
+- 🔗 **[Cybersecurity Portfolio Source](https://github.com/ijaz-ahmad11-dev/ijaz-ahmad11-dev)** - Profile README repository source & badges configuration.
+</details>
 
 ---
 
