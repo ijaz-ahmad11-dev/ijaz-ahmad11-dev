@@ -76,6 +76,64 @@ Security operations shouldn't rely on manual triage for known threats. Automated
 
 ---
 
+### ❯ how i build soc automation
+
+| Layer | Responsibility | Tooling |
+| :--- | :--- | :--- |
+| 📡 **Ingestion & Deception** | Captures real-time logs, network traffic & attacker traps | Wazuh Agent · Suricata IDS · Cowrie Honeypot |
+| 🔍 **Enrichment & Triage** | Decodes logs, checks threat intel & maps to MITRE ATT&CK | Custom Decoders · VirusTotal API · AbuseIPDB |
+| ⚡ **Active Response** | Blocks threat actor IPs, isolates host & kills process (<5s MTTR) | Python Daemons · Bash · Wazuh Active Response |
+| 🛡️ **Hardening & Audit** | Enforces security baselines & monitors configuration drift | CIS Benchmarks · Linux Auditd · Windows Sysmon |
+
+---
+
+### ❯ what i build
+
+```text
+DETECTION & SIEM           ACTIVE DEFENSE & SOAR      HARDENING & AUDITING
+├── Custom Log Decoders     ├── Zero-Touch Isolation   ├── CIS Benchmark Hardening
+├── MITRE ATT&CK Rules      ├── Active SSH Deception   ├── Endpoint Auditing
+├── Suricata NIDS Rules     ├── Automated IOC Triage   ├── Sysmon & Auditd Setup
+└── Alert Tuning & Noise    └── Threat Intel Pipelines └── SOC Playbooks & Docs
+```
+
+<table>
+<tr>
+<td width="33%" valign="top" align="center">
+
+### 🛡️ Detection & SIEM
+Custom rules and decoders mapped to MITRE ATT&CK to eliminate false positives and catch stealth threats.
+
+[![Wazuh](https://img.shields.io/badge/-Wazuh-e5e7eb?style=flat-square&logoColor=000)](https://github.com/ijaz-ahmad11-dev)
+[![Suricata](https://img.shields.io/badge/-Suricata-e5e7eb?style=flat-square&logoColor=000)](https://github.com/ijaz-ahmad11-dev)
+[![MITRE](https://img.shields.io/badge/-MITRE-e5e7eb?style=flat-square&logoColor=000)](https://github.com/ijaz-ahmad11-dev)
+
+</td>
+<td width="33%" valign="top" align="center">
+
+### ⚡ Active Defense & SOAR
+Zero-touch automated pipelines that isolate infected endpoints and block attacker IPs in under 5 seconds.
+
+[![SOAR](https://img.shields.io/badge/-SOAR-e5e7eb?style=flat-square&logoColor=000)](https://github.com/ijaz-ahmad11-dev)
+[![Python](https://img.shields.io/badge/-Python-e5e7eb?style=flat-square&logoColor=000)](https://github.com/ijaz-ahmad11-dev)
+[![APIs](https://img.shields.io/badge/-APIs-e5e7eb?style=flat-square&logoColor=000)](https://github.com/ijaz-ahmad11-dev)
+
+</td>
+<td width="33%" valign="top" align="center">
+
+### 🔍 Security Hardening
+System hardening configurations and continuous auditing based on CIS Benchmarks for Linux and Windows.
+
+[![Linux](https://img.shields.io/badge/-Linux-e5e7eb?style=flat-square&logoColor=000)](https://github.com/ijaz-ahmad11-dev)
+[![CIS](https://img.shields.io/badge/-CIS-e5e7eb?style=flat-square&logoColor=000)](https://github.com/ijaz-ahmad11-dev)
+[![Audit](https://img.shields.io/badge/-Audit-e5e7eb?style=flat-square&logoColor=000)](https://github.com/ijaz-ahmad11-dev)
+
+</td>
+</tr>
+</table>
+
+---
+
 ### ❯ the arsenal
 
 <table>
